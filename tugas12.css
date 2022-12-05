@@ -1,0 +1,388 @@
+@font-face {
+  font-family: bos;
+  src: url(bos.ttf);
+}
+@font-face {
+  font-family: cgl;
+  src: url(CocoGothic_Light.ttf);
+}
+@font-face {
+  font-family: ml;
+  src: url(Manrope-Light.otf);
+}
+@font-face {
+  font-family: mr;
+  src: url(Manrope-Regular.otf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #282828;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+  color: white;
+}
+nav .nama {
+  font-size: 2.5em;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  margin: 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: 38px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: bos;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+header {
+  padding: 0 60px;
+  padding-top: -80px;
+  margin: 30px;
+  margin-top: 40px;
+}
+header .h1 {
+  margin-top: 100px;
+  font-size: 3em;
+  color: white;
+  font-family: bos;
+  padding-bottom: 30px;
+  border-bottom: 2px white solid;
+  width: 30%;
+}
+header .h2 {
+  color: white;
+  font-size: 1.5em;
+  width: 55%;
+  font-family: bos;
+}
+
+button {
+  padding: 0px 25px;
+  border: 2px white solid;
+  border-radius: 5px;
+  margin-top: 5px;
+  color: white;
+  margin-bottom: 50px;
+  background-color: #282828;
+  border-bottom-color: white;
+  font-size: 1em;
+}
+
+.halaman2 {
+  margin-top: 100px;
+  display: flex;
+  background-color: #282828;
+}
+.halaman2 .kiri {
+  margin-left: 80px;
+  background-image: url(./image/RIPTO_XIMM3_DONAT.jpg);
+  background-size: 100%;
+  height: 35em;
+  width: 20%;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  border: 1px white solid;
+}
+.halaman2 .kiri img {
+  margin-top: 450px;
+  margin-left: 80px;
+  height: 60px;
+}
+.halaman2 .aboutme {
+  font-size: 2em;
+  font-family: bos;
+  display: flex;
+  color: white;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+.halaman2 .free {
+  margin: 10px;
+  display: flex;
+  font-size: 1em;
+  color: #7EED41;
+  margin-left: 80px;
+}
+.halaman2 .h3 {
+  width: 800px;
+  margin-left: 80px;
+  font-family: bos;
+  font-size: 1em;
+  color: #959595;
+  border-bottom: 2px white solid;
+  padding-bottom: 30px;
+}
+.halaman2 .my1 {
+  display: block;
+  margin-top: 10px;
+  font-family: bos;
+  font-size: 2em;
+  color: white;
+  margin-left: 80px;
+}
+.halaman2 .my-list {
+  display: flex;
+}
+.halaman2 .my-list .web1 {
+  color: #959595;
+  margin-left: 80px;
+  width: 50% px;
+  line-height: 10px;
+  font-family: bos;
+}
+.halaman2 .my-list .web2 {
+  color: #959595;
+  margin-left: 80px;
+  width: 50% px;
+  line-height: 10px;
+  font-family: bos;
+  margin-top: 10%;
+}
+.halaman2 .my3 {
+  display: flex;
+}
+.halaman2 .my3 .web3 {
+  color: #959595;
+  margin-left: 80px;
+  width: 40% px;
+  line-height: 10px;
+  font-family: bos;
+}
+.halaman2 .my3 .web4 {
+  color: #959595;
+  margin-left: 2px;
+  width: 40% px;
+  line-height: 10px;
+  font-family: bos;
+  margin-top: 13%;
+}
+
+.halaman3 {
+  background-color: #282828;
+  margin-top: 200px;
+}
+.halaman3 .atas1 {
+  font-size: 1.5em;
+  margin-left: 6%;
+  color: #959595;
+  border-bottom: 2px white solid;
+  line-height: 35px;
+  width: 80%;
+}
+.halaman3 .atas1 .project {
+  color: #959595;
+  font-size: 2.5em;
+  font-family: bos;
+}
+.halaman3 .bawah1 {
+  display: flex;
+}
+.halaman3 .bawah1 .kiri1 {
+  border-right: 2px white solid;
+  margin-top: 40px;
+  margin-right: 5%;
+}
+.halaman3 .bawah1 .kiri1 .kiri-atas {
+  font-size: 1em;
+  color: #959595;
+  display: flex;
+  margin-left: 30px;
+  text-align: center;
+  align-items: center;
+  margin-right: 7.5%;
+  margin-left: 7.5%;
+}
+.halaman3 .bawah1 .kiri1 .kiri-atas .ppp {
+  height: 150px;
+  margin-right: 7.5%;
+  margin-top: 8%;
+  margin-left: 20px;
+}
+.halaman3 .bawah1 .kiri1 .kiri-bawah {
+  font-size: 1em;
+  color: #959595;
+  display: flex;
+  margin-left: 60px;
+}
+.halaman3 .bawah1 .kiri1 .kiri-bawah .p1 {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+.halaman3 .bawah1 .kiri1 .kiri-bawah .ppp2 {
+  margin-right: 7.5%;
+  height: 150px;
+  margin-top: 4%;
+  margin-left: 7.5%;
+}
+.halaman3 .bawah1 .kanan1 .ppp3 {
+  height: 70px;
+  margin-top: 180px;
+  margin-right: 200px;
+}
+
+.halaman4 {
+  background-color: #282828;
+  margin-top: 200px;
+}
+.halaman4 .atas2 {
+  font-size: 1.5em;
+  margin-left: 6%;
+  color: #959595;
+  border-bottom: 2px white solid;
+  line-height: 35px;
+  width: 80%;
+}
+.halaman4 .atas2 .project1 {
+  color: #959595;
+  font-size: 2.5em;
+  font-family: bos;
+}
+.halaman4 .bawah2 {
+  display: flex;
+  padding-left: 10%;
+}
+.halaman4 .bawah2 .kiri2 {
+  margin-top: 150px;
+  width: 25%;
+}
+.halaman4 .bawah2 .kiri2 .ppp4 {
+  margin-left: 60px;
+  height: 9vh;
+}
+.halaman4 .bawah2 .kiri2 .pp4 {
+  color: white;
+  font-size: 1.5em;
+}
+.halaman4 .bawah2 .kanan2 {
+  border-left: 2px white solid;
+  margin-top: 40px;
+  width: 60%;
+}
+.halaman4 .bawah2 .kanan2 .kanan-atas2 {
+  font-size: 1em;
+  color: #959595;
+  display: flex;
+  margin-left: 30px;
+  text-align: center;
+  align-items: center;
+  margin-right: 7.5%;
+  margin-left: 7.5%;
+}
+.halaman4 .bawah2 .kanan2 .kanan-atas2 .ppp5 {
+  height: 150px;
+  margin-right: 7.5%;
+  margin-top: 8%;
+  margin-left: 20px;
+}
+.halaman4 .bawah2 .kanan2 .kanan-atas2 .p2 {
+  margin-left: 30px;
+}
+.halaman4 .bawah2 .kanan2 .kanan-bawah2 {
+  font-size: 1em;
+  color: #959595;
+  display: flex;
+}
+.halaman4 .bawah2 .kanan2 .kanan-bawah2 .p3 {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+.halaman4 .bawah2 .kanan2 .kanan-bawah2 .ppp6 {
+  margin-right: 13%;
+  height: 130px;
+  margin-top: 4%;
+  width: 35%;
+}
+
+.halaman5 {
+  display: flex;
+  padding: 7% 7%;
+}
+.halaman5 .kiri3 {
+  display: block;
+}
+.halaman5 .kiri3 .k2 {
+  margin-left: 25%;
+  margin-top: 10px;
+  height: 30vh;
+}
+.halaman5 .kiri3 .email {
+  margin-top: 32px;
+  display: flex;
+}
+.halaman5 .kiri3 .email img {
+  height: 10vh;
+}
+.halaman5 .kiri3 .email .pe {
+  margin-left: 4%;
+  font-size: 1.5em;
+  color: white;
+}
+.halaman5 .kiri3 .wa {
+  margin-top: 32px;
+  display: flex;
+}
+.halaman5 .kiri3 .wa img {
+  height: 10vh;
+}
+.halaman5 .kiri3 .wa .pw {
+  margin-left: 4%;
+  font-size: 1.5em;
+  color: white;
+}
+.halaman5 .kiri3 .instagram {
+  margin-top: 32px;
+  display: flex;
+}
+.halaman5 .kiri3 .instagram img {
+  height: 10vh;
+}
+.halaman5 .kiri3 .instagram .pi {
+  margin-left: 4%;
+  font-size: 1.5em;
+  color: white;
+}
+.halaman5 .kiri3 .telepon {
+  margin-top: 32px;
+  display: flex;
+}
+.halaman5 .kiri3 .telepon img {
+  height: 10vh;
+}
+.halaman5 .kiri3 .telepon .pt {
+  margin-left: 4%;
+  font-size: 1.5em;
+  color: white;
+}
+.halaman5 .qr {
+  margin-bottom: 30px;
+  margin-left: 15%;
+  border-left: 2px white solid;
+  height: 100vh;
+  padding-left: 100px;
+}
+.halaman5 .qr .pq {
+  margin-top: 20px;
+  margin-left: 13%;
+  color: white;
+  font-size: 3em;
+}
+.halaman5 .qr img {
+  height: 80vh;
+}
+
+/*# sourceMappingURL=tugas12.css.map */

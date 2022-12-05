@@ -1,0 +1,317 @@
+@use 'extend'
+@mixin size($w,$h)
+    height: $h
+    width: $w
+@mixin bg($bp,$bs)
+    background-position: $bp
+    background-size: $bs
+    background-repeat: no-repeat
+body
+    margin: 0
+    padding: 0
+    background-color: #282828
+
+nav
+    display: flex
+    justify-content: space-between
+    padding: 0 70px
+    color: white
+    .nama
+        font-size: 2.5em
+        margin-top: 10px
+        letter-spacing: 1px
+        margin: 20px
+    ul
+        list-style: none
+        display: flex
+        justify-content: space-between
+        width: 30%
+        margin-top: 38px
+        li a
+            color: white
+            text-decoration: none
+            font-family: bos
+            font-size: 1.5em
+            margin-top: 10px
+header
+    padding: 0 60px
+    padding-top: -80px
+    margin: 30px
+    margin-top: 40px
+    .h1
+        margin-top: 100px
+        font-size: 3em
+        color: white
+        font-family: bos
+        padding-bottom: 30px
+        border-bottom:2px white solid
+        width:30%
+    .h2
+        color: white
+        font-size: 1.5em
+        width: 55%
+        font-family: bos
+
+button
+    padding: 0px 25px
+    border: 2px white solid
+    border-radius: 5px
+    margin-top: 5px
+    color: white
+    margin-bottom: 50px
+    background-color: #282828
+    border-bottom-color: white
+    font-size: 1em
+
+.halaman2
+    margin-top: 100px
+    display: flex
+    background-color: #282828
+    .kiri
+        margin-left: 80px
+        background-image: url(./image/RIPTO_XIMM3_DONAT.jpg)
+        background-size: 100%
+        height: 35em
+        width: 20%
+        background-repeat: no-repeat
+        margin-top: 10px
+        border: 1px white solid
+        img
+            margin-top: 450px
+            margin-left: 80px
+            height: 60px
+
+    .aboutme
+        font-size: 2em
+        font-family: bos
+        display: flex
+        color: white
+        margin-top: 10px
+        margin-left: 80px
+
+    .free
+        margin: 10px
+        display: flex
+        font-size: 1em
+        color: #7EED41
+        margin-left: 80px
+    .h3
+        width: 800px
+        margin-left: 80px
+        font-family: bos
+        font-size: 1em
+        color: #959595
+        border-bottom: 2px white solid
+        padding-bottom: 30px
+    .my1
+        display: block
+        margin-top: 10px
+        font-family: bos
+        font-size: 2em
+        color: white
+        margin-left: 80px
+    .my-list
+        display: flex
+        .web1
+            color: #959595
+            margin-left: 80px
+            width: 50%px
+            line-height: 10px
+            font-family: bos
+        .web2
+            color: #959595
+            margin-left: 80px
+            width: 50%px
+            line-height: 10px
+            font-family: bos
+            margin-top: 10%
+    .my3
+        display: flex
+        .web3
+            color: #959595
+            margin-left: 80px
+            width: 40%px
+            line-height: 10px
+            font-family: bos
+        .web4
+            color: #959595
+            margin-left: 2px
+            width: 40%px
+            line-height: 10px
+            font-family: bos
+            margin-top: 13%
+
+.halaman3
+    background-color: #282828
+    margin-top: 200px
+    .atas1
+        font-size: 1.5em
+        margin-left: 6%
+        color: #959595
+        border-bottom: 2px white solid
+        line-height: 35px
+        width: 80%
+        .project
+            color: #959595
+            font-size: 2.5em
+            font-family: bos
+    .bawah1
+        display: flex
+        .kiri1
+            border-right: 2px white solid
+            margin-top: 40px
+            margin-right: 5%
+            .kiri-atas
+                font-size: 1em
+                color: #959595
+                display: flex
+                margin-left: 30px
+                text-align: center
+                align-items: center
+                margin-right: 7.5%
+                margin-left: 7.5% 
+                .ppp
+                    height: 150px
+                    margin-right: 7.5%
+                    margin-top: 8%
+                    margin-left: 20px               
+
+            .kiri-bawah
+                font-size: 1em
+                color: #959595
+                display: flex
+                margin-left: 60px
+                .p1
+                    text-align: center
+                    align-items: center
+                    margin: auto
+                .ppp2
+                    margin-right: 7.5%
+                    height: 150px
+                    margin-top: 4% 
+                    margin-left: 7.5%
+
+        .kanan1
+            .ppp3
+                height: 70px   
+                margin-top: 180px
+                margin-right: 200px
+
+.halaman4
+    background-color: #282828
+    margin-top: 200px
+    .atas2
+        font-size: 1.5em
+        margin-left: 6%
+        color: #959595
+        border-bottom: 2px white solid
+        line-height: 35px
+        width: 80%
+        .project1
+            color: #959595
+            font-size: 2.5em
+            font-family: bos
+    .bawah2
+        display: flex
+        padding-left: 10%
+        .kiri2  
+            margin-top: 150px
+            width: 25%
+            .ppp4
+                margin-left: 60px
+                height: 9vh
+            .pp4
+                color: white
+                font-size: 1.5em
+        .kanan2
+            border-left: 2px white solid
+            margin-top: 40px
+            width: 60%
+            .kanan-atas2
+                font-size: 1em
+                color: #959595
+                display: flex
+                margin-left: 30px
+                text-align: center
+                align-items: center
+                margin-right: 7.5%
+                margin-left: 7.5% 
+                .ppp5
+                    height: 150px
+                    margin-right: 7.5%
+                    margin-top: 8%
+                    margin-left: 20px
+                .p2
+                    margin-left: 30px           
+
+            .kanan-bawah2
+                font-size: 1em
+                color: #959595
+                display: flex
+                .p3
+                    text-align: center
+                    align-items: center
+                    margin: auto
+                .ppp6
+                    margin-right: 13%
+                    height: 130px
+                    margin-top: 4% 
+                    width: 35%
+.halaman5
+    display: flex 
+    padding: 7% 7%
+    .kiri3
+        display: block
+        .k2
+            margin-left: 25%
+            margin-top: 10px
+            height: 30vh
+        .email
+            margin-top: 32px
+            display: flex
+            img
+                height: 10vh
+            .pe
+                margin-left: 4%
+                font-size: 1.5em 
+                color: white
+        .wa
+            margin-top: 32px
+            display: flex
+            img
+                height: 10vh
+            .pw
+                margin-left: 4%
+                font-size: 1.5em
+                color: white
+        .instagram
+            margin-top: 32px
+            display: flex
+            img
+                height: 10vh
+            .pi
+                margin-left: 4%
+                font-size: 1.5em
+                color: white
+        .telepon
+            margin-top: 32px
+            display: flex
+            img
+                height: 10vh
+            .pt
+                margin-left: 4%
+                font-size: 1.5em
+                color: white
+    .qr
+        margin-bottom: 30px 
+        margin-left: 15% 
+        border-left: 2px white solid
+        height: 100vh
+        padding-left: 100px  
+        .pq
+            margin-top: 20px
+            margin-left: 13%
+            color: white
+            font-size: 3em
+        img
+            height: 80vh    
